@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> My School Website </title>
+
+<link rel="stylesheet"
+type="text/css"
+href="style.css"/>
+</head>
+
+<body>
+
+  <!-- Top Menu-1 -->
+    <div class="sticky1">
+    <a href="https://nvn.edu.in/"><img STYLE="position:absolute; TOP:15px; left:165px;" src="https://nvn.edu.in/wp-content/uploads/2018/08/wp-nvn-196x64.png"/></a>
+
+    <img STYLE="position:absolute; TOP:42px; right:820px;" src="tick.png" alt="tick" width="15" height="15">
+    <a STYLE="position:absolute; TOP:38px; right:675px; color:rgb(231, 113, 113); text-decoration: none; font-family: helvetica" href="https://nvn.edu.in/onlinelessons/">Online Lessons</a>
+
+    <img STYLE="position:absolute; TOP:42px; right:605px;" src="tick.png" alt="tick" width="15" height="15">
+    <a STYLE="position:absolute; TOP:38px; right:500px; color:rgb(231, 113, 113); text-decoration: none; font-family: helvetica" href="http://lms.nalanda.edu.in/">Moodleport</a>
+
+    <img STYLE="position:absolute; TOP:42px; right:430px;" src="tick.png" alt="tick" width="15" height="15">
+    <a STYLE="position:absolute; TOP:38px; right:280px; color:rgb(231, 113, 113); text-decoration: none; font-family: helvetica" href="https://login.microsoftonline.com/?whr=nalanda.edu.in">Microsoft Teams</a>
+
+    <a href="https://www.instagram.com/nalandaed/"><img STYLE="position:absolute; TOP:20px; right:185px;" src="insta.png" width="50" height="50"/></a>
+    <a href="https://www.facebook.com/NalandaEduInst/"><img STYLE="position:absolute; TOP:20px; right:115px;"src="fb.png" width="50" height="50"/></a>
+    <a href="https://www.youtube.com/user/NalandaEdu"><img STYLE="position:absolute; TOP:20px; right:45px;" src="youtube.png" width="50" height="50"/></a>
+    </div>
+    <hr>
+    <!-- 1 ends -->
+
+    <!-- Sub Navigation Menu-2 -->
+    <div class="sticky2">
+      <a href="#""><img STYLE="position:absolute; TOP:5px; left:155px;" src="home_icon.png" width="75" height="75"/></a>
+   
+        <div STYLE = "TOP:1px; left:250px;"class="dropdown">
+            <button class="dropbtn" >About Us</button>
+            <div class="dropdown-content">
+              <a href="https://nvn.edu.in/about-us/admissions/">Admissions</a><hr>
+              <a href="https://nvn.edu.in/about-us/board-of-directors/">Board Of Directors</a><hr>
+              <a href="https://nvn.edu.in/about-us/vision-and-mission/">Vision & Mission</a><hr>
+              <a href="https://nvn.edu.in/about-us/principals-message/">Principal's Messaage</a><hr>
+              <a href="https://nvn.edu.in/history/">History</a>
+            </div>
+          </div>
+
+          <div STYLE = "TOP:1px; left:300px;"class="dropdown">
+            <button class="dropbtn">NVN life</button>
+            <div class="dropdown-content">
+              <a href="https://nvn.edu.in/school-life/after-school/">After School</a><hr>
+              <a href="https://nvn.edu.in/school-life/athletics/">Sport</a><hr>
+              <a href="https://nvn.edu.in/school-life/transport/">Transport</a>
+            </div>
+          </div>
+
+          <div STYLE = "TOP:1px; left:350px;"class="dropdown">
+            <button class="dropbtn">Academics</button>
+            <div class="dropdown-content">
+              <a href="https://nvn.edu.in/academics/playschool/">Play School</a><hr>
+              <a href="https://nvn.edu.in/academics/primary-school/">Primary School</a><hr>
+              <a href="https://nvn.edu.in/academics/secondary-school/">Secondary School</a><hr>
+              <a href="https://nvn.edu.in/academics/cbse12/">CBSE +1 +2</a><hr>
+              <a href="https://nvn.edu.in/academics/examination-procedure/">Assessment</a>
+            </div>
+          </div>
+
+    <a STYLE="position:absolute; TOP:30px; right:700px; color:black; text-decoration: none; font-family: helvetica; font-weight:bold" href="https://nvn.edu.in/events">Calender</a>
+    <a STYLE="position:absolute; TOP:30px; right:580px; color:black; text-decoration: none; font-family: helvetica; font-weight:bold" href="https://nvn.edu.in/contact/">Contact</a>
+    <a STYLE="position:absolute; TOP:30px; right:480px; color:black; text-decoration: none; font-family: helvetica; font-weight:bold" href="https://nvn.edu.in/blog/">Blog</a>
+    <a STYLE="position:absolute; TOP:30px; right:290px; color:black; text-decoration: none; font-family: helvetica; font-weight:bold" href="https://nvn.edu.in/onlinelessons">Online Classes</a>
+   </div>
+   <hr>
+   <!-- 2 ends -->
+
+   <!-- Image slideshow-3 -->
+     <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="1.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="2.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="3.jpg" style="width:100%">
+      </div>
+
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      
+      <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3300); // Change image every 4 seconds
+      }
+      </script>
+<!-- 3 ends -->
+
+</body>
+</html>

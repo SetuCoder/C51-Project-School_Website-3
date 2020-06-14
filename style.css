@@ -1,0 +1,125 @@
+/* Navbars-1 */
+
+ div.sticky1 {
+      position: static;
+      top: 0;
+      padding: 50px;
+      font-size: 20px;
+      background-color: rgb(255, 255, 255);
+  }
+
+ div.sticky2 {
+      position: sticky;
+      top: 0;
+      font-size: 20px;
+      background-color: rgb(248, 248, 248);
+      padding: 15px;
+ }
+
+/* 1 ends */
+
+/* Dropdown factor-2 */
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family: helvetica; 
+  font-weight:bold;
+  background-color: rgb(248,248,248)
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* 2 ends */
+
+/* Slideshow properties */
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  z-index: -1
+}
+
+.text {
+  color: #f2f2f2;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 188px;
+  width: 100%;
+  left: 10%;
+  text-align: left;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/* 3 ends*/
+
